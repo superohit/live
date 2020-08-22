@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style type="text/css">
+#box{
+    width:300px;
+    height: 300px;
+    text-align:center;
+    background:linear-gradient(to left,yellow,red);
+    border-radius:10px;
+}
+#head{
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+body{
+    background-color:blueviolet;
+   text-align: center;
+}
+form{
+  text-align:"center";
+
+}
+.exit{
+    background-color:chartreuse;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+}
+select{
+    border-radius: 10px;
+    background-color:cornflowerblue;
+}
+  fieldset{
+      text-align:center;
+  }
+
+  
+
+
+
+        </style>
+    </head>
+    <body>
+        <h2>
+            Enter Your Detail
+        </h2>
+    
+        <form action=" " method="post">
+            <div>
+              <legend id="head">Student Detail</legend><br>
+                first name : 
+                <input type ="text" name="firstname" placeholder="first name"><br><br>
+                last name :
+                <input type ="text" name="lastname" placeholder="last name"><br><br>
+                age :
+                <input type ="radio" name="age">under 18<br><br>
+               &nbsp &nbsp &nbsp <input type="radio" name="age">over 18<br><br>
+                <select name="qualification"><br><br>
+                    <option value="qualification">qualification</option>
+                    <option value="undergraduate">Under Graduate</option>
+                    <option value="postgraduate">Post Graduate</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="highschool">High School</option>
+                </select><br><br>
+                <input type="submit" value="click" class="exit">
+            </div>
+        </form>
+        
+    </body>
+</html>
